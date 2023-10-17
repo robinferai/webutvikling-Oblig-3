@@ -1,13 +1,75 @@
-#Logo{
-    font-size: 30px;
-
-    
-    
-}
 
 body{
 padding:100px;
+background-color: antiquewhite;
 }
 
 
+#grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
+
+
+.black-btn{
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 100;
+}
+
+#Logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+@media only screen and (min-width:600px){
+    #grid-container{
+        grid-template-areas: "header header header" ". main ." "footer footer footer";
+    }
+    
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style: none;
+        margin: 0;
+    }
+
+    #ham, .fa-magnifying-glass{
+        display: none;
+    }
+
+    .flex-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex-section img{
+        width: 50%;
+    }
+
+    .flex-section section{
+        width: 40%;
+        align-self: center;
+        padding: 1rem;
+    }
+
+    .right img{
+        order: 1;
+    }
+    
+
+}
 

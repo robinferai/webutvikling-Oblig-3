@@ -3,52 +3,54 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>SeniorSkoHelse</title>
 </head>
 <body>
-
+    <div id="grid-container">
     <header>
         <nav>
             <a href="index.html" id="Logo">SeniorSkoHelse</a>
            
-            <img src="Img/user.png" alt="A profile user icon">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
             
            <!--Jeg søkte på internett om hvordan jeg la til en search bar-->
             <label for="site-search">Search the site:</label>
             <input type="search" id="site-search" name="q" />
             <button>Search</button>
-            <ul>
-                <li><a href="handlekurv.html"><img src="Img/shopping-cart.png" alt="A shopping-cart icon"></a></li>
-
+            <ul class="flex-section">
                 <li><a href="#">Herre</a></li>
                 <li><a href="#">Dame</a></li>
                 <li><a href="#">Salg</a></li>
             </ul>
             <section>
-                <h1>Vårt utvalg</h1>
+                <h2>Vårt utvalg</h2>
             </section>
         </nav>
     </header>
     
     <main>
-        <section>
             <nav>
                 <ul>
-                    <li><a href="produkt.html">Non-slip shoues</a></li>
-                    <li><a href="#">Smerte forebyggende sko</a></li>
-                    <li><a href="#">Ankel support sko</a></li>
-                    <li><a href="#">Platfot</a></li>
-                    <li><a href="#">Fall forebyggende</a></li>
-                    <li><a href="#">hevelse reduserende sko</a></li>
+                    <li><a href="produkt.html" class="black-btn">Non-slip shoues</a></li>
+                    <li><a href="#" class="black-btn">Smerte forebyggende sko</a></li>
+                    <li><a href="#" class="black-btn">Ankel support sko</a></li>
+                    <li><a href="#" class="black-btn">Platfot</a></li>
+                    <li><a href="#" class="black-btn">Fall forebyggende</a></li>
+                    <li><a href="#" class="black-btn">hevelse reduserende sko</a></li>
                 </ul>
             </nav>
-        </section>
     </main>
 
     <footer>
 
     </footer>
+</div>
 </body>
 </html>
 
