@@ -1,6 +1,6 @@
 
 body{
-padding:100px;
+padding: 100px;
 }
 
 
@@ -9,33 +9,61 @@ padding:100px;
     grid-template-areas: "header" "main" "footer";
 }
 
+#Logo{
+    position: absolute;
+    margin-top: 20px; 
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    top:30px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding:0.5rem;
+}
+
+
+main{
+    grid-area: main;
+}
+
+
 .flex-section{
     display: flex;
-
-    
 }
+
+#Utvalg{
+    text-align: center;
+    margin: 50px;
+
+}
+
 ul {
     list-style-type: none;
     gap: 20px; 
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .black-btn {
     display: flex;
-    width: 150px; 
-    height: 150px; 
+    width: 120px; 
+    height: 120px; 
     text-decoration: none;
-    background-color: rgb(122, 255, 138);
+    background-color: rgb(114, 243, 255);
     color: #000000;
     border-radius: 20px;  
     font-weight: 100;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-#Logo{
-    font-size: 30px;
-    text-decoration: none;
-}
+
 
 .navbar{
     display: flex;
@@ -43,9 +71,16 @@ ul {
     list-style: none;
 }
 
+
+footer{
+    grid-area: footer;
+}
+
+
 @media only screen and (min-width:600px){
     #grid-container{
         grid-template-areas: "header header header" ". main ." "footer footer footer";
+
     }
     
     .navbar{
@@ -54,10 +89,6 @@ ul {
         gap: 1rem;
         list-style: none;
         margin: 0;
-    }
-
-    #ham, .fa-magnifying-glass{
-        display: none;
     }
 
     .flex-section{
