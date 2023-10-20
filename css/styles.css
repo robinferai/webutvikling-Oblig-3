@@ -3,10 +3,24 @@ body{
 padding: 100px;
 }
 
+#body-produkt{
+    padding: 2px; 
+}
+
+#plasering{
+    padding:10rem;
+}
+
 
 #grid-container{
     display: grid;
     grid-template-areas: "header" "main" "footer";
+}
+
+#grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+
 }
 
 header{
@@ -19,19 +33,22 @@ header{
 
 #Logo{
     position: absolute;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    right: 2.6rem;
+    top: 0;
+}
+
+
+#Logo-handlekurv{
+    position: absolute;
     margin-top: 20px; 
     font-size: 30px;
     text-decoration: none;
     display: flex;
     top:30px;
-}
-
-#Logo-produkt{
-    position: absolute;
-    margin-top: 20px; 
-    font-size: 30px;
-    text-decoration: none;
-    display: contents;
 }
  
 
@@ -40,6 +57,18 @@ header{
     justify-content: space-between;
     margin: 0.5rem;
     padding:0.5rem;
+    position: absolute;
+    top: 59px; 
+    right: 31rem; 
+    gap: 210px;
+}
+
+#trashcan{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15.8rem;
+    top: 20rem;
 }
 
 
@@ -57,6 +86,15 @@ header{
 
 }
 
+#hk-overskrift{
+    display: flex;
+    position: absolute;
+    right: 9.3rem;
+    font-size: 25px;
+    top: 4.5rem;
+}
+
+
 main{
     grid-area: main;
 }
@@ -67,7 +105,21 @@ main{
     height: 150px;
     padding: 13rem;
     flex-direction: column;
-    grid-column: span2;
+}
+
+#handlekurv-img{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+}
+
+.Info{
+    font-size: 15px;
+    position: absolute;
+    right: 4rem;
+    top: 10.4rem;
 }
 
 ul {
@@ -101,18 +153,36 @@ footer{
 }
 
 
-@media only screen and (min-width:600px){
-    #grid-container{
+/**@media only screen and (min-width:600px){
+   
+   body{
+    background-color: blue;
+   }
+   
+    #grid-container, #grid-container-produkt{
         grid-template-areas: "header header header" ". main ." "footer footer footer";
 
     }
     
+    #Logo{
+        padding-left: 31.4rem;
+    }
+
+    .icon-pc{
+        display: flex;
+        position: absolute;
+        top: 59px; 
+        right: 37.7rem; 
+        gap: 210px;
+    }   
+    
+
     .navbar{
         display: flex;
         flex-direction: row;
         gap: 1rem;
         list-style: none;
-        margin: 0;
+   
     }
 
     .flex-section{
@@ -130,11 +200,27 @@ footer{
         align-self: center;
         padding: 1rem;
     }
+**/
 
-    .right img{
-        order: 1;
+@media only screen and (min-width:600px){
+   
+    body{
+     
     }
-    
+
+    #grid-container{
+        grid-template-areas: "header header header" ". main ." "footer footer footer";
+
+    }
+
+    #Logo{
+        position: absolute;
+        margin-top: 20px;
+        font-size: 30px;
+        text-decoration: none;
+        display: flex;
+        right: 39rem;
+    }
 
 }
 
