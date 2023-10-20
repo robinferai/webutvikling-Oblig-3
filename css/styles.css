@@ -37,31 +37,19 @@ header{
     font-size: 30px;
     text-decoration: none;
     display: flex;
-    right: 2.6rem;
+    right: 7.6rem;
     top: 0;
 }
 
-
-#Logo-handlekurv{
-    position: absolute;
-    margin-top: 20px; 
-    font-size: 30px;
-    text-decoration: none;
+.icon-pc{
     display: flex;
-    top:30px;
+    position: absolute;
+    justify-content: space-around;
+    right: 5.4rem;
+    gap: 220px;
+    top: 7.7rem;
 }
  
-
-.icon{
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5rem;
-    padding:0.5rem;
-    position: absolute;
-    top: 59px; 
-    right: 31rem; 
-    gap: 210px;
-}
 
 #trashcan{
     height: 20px;
@@ -153,55 +141,6 @@ footer{
 }
 
 
-/**@media only screen and (min-width:600px){
-   
-   body{
-    background-color: blue;
-   }
-   
-    #grid-container, #grid-container-produkt{
-        grid-template-areas: "header header header" ". main ." "footer footer footer";
-
-    }
-    
-    #Logo{
-        padding-left: 31.4rem;
-    }
-
-    .icon-pc{
-        display: flex;
-        position: absolute;
-        top: 59px; 
-        right: 37.7rem; 
-        gap: 210px;
-    }   
-    
-
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        list-style: none;
-   
-    }
-
-    .flex-section{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .flex-section img{
-        width: 50%;
-    }
-
-    .flex-section section{
-        width: 40%;
-        align-self: center;
-        padding: 1rem;
-    }
-**/
-
 @media only screen and (min-width:600px){
    
     body{
@@ -213,6 +152,19 @@ footer{
 
     }
 
+
+    .icon-pc{
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        position: absolute;
+        top: 14px;
+        right: 36.3rem;
+        gap: 218px;
+        }
+    
+
     #Logo{
         position: absolute;
         margin-top: 20px;
@@ -221,6 +173,8 @@ footer{
         display: flex;
         right: 39rem;
     }
+
+    
 
 }
 
