@@ -37,7 +37,7 @@ header{
     font-size: 30px;
     text-decoration: none;
     display: flex;
-    right: 7.6rem;
+    right: 7.4rem;
     top: 0;
 }
 
@@ -141,7 +141,7 @@ footer{
 }
 
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:500px){
    
     body{
      
@@ -152,6 +152,11 @@ footer{
 
     }
 
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
 
     .icon-pc{
         display: flex;
@@ -161,8 +166,8 @@ footer{
         position: absolute;
         top: 14px;
         right: 36.3rem;
-        gap: 218px;
         }
+
     
 
     #Logo{
