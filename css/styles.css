@@ -17,11 +17,6 @@ padding: 100px;
     grid-template-areas: "header" "main" "footer";
 }
 
-#grid-container{
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-
-}
 
 header{
     font-size: 1rem;
@@ -41,6 +36,7 @@ header{
     top: 0;
 }
 
+
 .icon-pc{
     display: flex;
     position: absolute;
@@ -59,6 +55,22 @@ header{
     top: 20rem;
 }
 
+#trashcan2{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15.8rem;
+    top: 33.6rem;
+}
+
+#trashcan3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15.8rem;
+    top: 47rem;
+  }
+
 
 .navbar{
     display: flex;
@@ -67,6 +79,9 @@ header{
     justify-content: space-between;
     padding: 0.5rem;
 }
+
+
+
 
 #Utvalg{
     text-align: center;
@@ -87,6 +102,7 @@ main{
     grid-area: main;
 }
 
+
 .shoe-img{
     display: flex;
     width: 150px;
@@ -103,12 +119,44 @@ main{
     right: 6rem;
 }
 
+#handlekurv-img2{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 21.5rem;
+}
+
+#handlekurv-img3{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 35rem;
+}
+
 .Info{
     font-size: 15px;
     position: absolute;
     right: 4rem;
     top: 10.4rem;
 }
+
+.Info2{
+    font-size: 15px;
+    position: absolute;
+    right: 4rem;
+    top: 23.8rem;
+}
+
+.Info3 {
+    font-size: 15px;
+    position: absolute;
+    right: 4rem;
+    top: 37.5rem;
+  }
 
 ul {
     list-style-type: none;
@@ -153,10 +201,113 @@ footer{
     }
 
     .navbar {
-        display: flex;
         justify-content: space-around;
-        gap: 40px;
+        position: absolute;
+        right: 39.8rem;
+
     }
+
+    header{
+
+    }
+
+    #hk-overskrift {
+        display: flex;
+        position: absolute;
+        right: 41rem;
+        font-size: 25px;
+        top: 4.5rem;
+      }
+  
+    main{
+
+    }
+
+
+    #trashcan{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 48rem;
+        top: 20rem;
+    }
+    
+    #trashcan2{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 68rem;
+        top: 20rem;
+    }
+
+    #trashcan3{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 28rem;
+        top: 20rem;
+    }
+
+    #handlekurv-img{
+        height: 120px;
+        padding: 3.7rem;
+        width: 120px;
+        position: absolute;
+        left: 37rem;
+    }
+    
+    #handlekurv-img2{
+        height: 120px;
+        padding: 3.7rem;
+        width: 120px;
+        position: absolute;
+        left: 17rem;
+        top: 8rem;
+    }
+
+
+
+    #handlekurv-img3{
+        height: 120px;
+        padding: 3.7rem;
+        width: 120px;
+        position: absolute;
+        left: 57rem;
+        top: 8rem;
+    }
+
+    .Info{
+        font-size: 15px;
+        position: absolute;
+        right: 36rem;
+        top: 10.4rem;
+    }
+    
+    .Info2{
+        font-size: 15px;
+        position: absolute;
+        right: 56rem;
+        top: 10.4rem;
+    }
+
+    .Info3{
+        font-size: 15px;
+        position: absolute;
+        right: 16rem;
+        top: 10.4rem;
+    }
+
+
+
+    
+    ul {
+        list-style-type: none;
+        gap: 20px;
+        display: flex;
+        right: 19rem;
+        position: absolute;
+      }
+
 
     .icon-pc{
         display: flex;
