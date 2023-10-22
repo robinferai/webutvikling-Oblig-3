@@ -102,6 +102,32 @@ main{
     grid-area: main;
 }
 
+.multible {
+    position: absolute;
+    right: 9.6rem;
+    bottom: 36.5rem;
+  }
+
+  .multible2 {
+    position: absolute;
+    right: 9.6rem;
+    bottom: 23rem;
+  }
+
+  .multible3 {
+    position: absolute;
+    right: 9.6rem;
+    bottom: 9.5rem;
+  }
+
+
+
+  #Salg {
+    position: absolute;
+    top: 54rem;
+    right: 8.4rem;
+  }
+
 
 .shoe-img{
     display: flex;
@@ -181,8 +207,18 @@ ul {
     list-style-type: none;
 }
 
-
-
+.checkout-button {
+    background-color: rgb(114, 243, 255);
+    color: #000000; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    position: absolute;
+    top: 63rem;
+    right: 7.4rem;
+}
 
 footer{
     grid-area: footer;
@@ -222,6 +258,31 @@ footer{
     main{
 
     }
+      
+
+    .multible {
+        position: absolute;
+        right: 41.8rem;
+        bottom: 10.8rem;
+      }
+    
+      .multible2 {
+        position: absolute;
+        right: 61.8rem;
+        bottom: 10.8rem;
+      }
+    
+      .multible3 {
+        position: absolute;
+        right: 21.8rem;
+        bottom: 10.8rem;
+      }
+
+      #Salg {
+        position: absolute;
+        top: 30rem;
+        right: 40rem;
+      }
 
 
     #trashcan{
@@ -330,6 +391,12 @@ footer{
         right: 39rem;
     }
 
+
+    .checkout-button {
+        position: absolute;
+        top: 39rem;
+        right: 39rem;
+    }
     
 
 }
