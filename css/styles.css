@@ -104,20 +104,20 @@ main{
 
 .multible {
     position: absolute;
-    right: 9.6rem;
-    bottom: 36.5rem;
+    right: 5.7rem;
+    top: 9.7rem;
   }
 
   .multible2 {
     position: absolute;
-    right: 9.6rem;
-    bottom: 23rem;
+    right: 5.7rem;
+    top: 9.7rem;
   }
 
   .multible3 {
     position: absolute;
-    right: 9.6rem;
-    bottom: 9.5rem;
+    right: 5.7rem;
+    top: 9.7rem;
   }
 
 
@@ -136,6 +136,8 @@ main{
     padding: 13rem;
     flex-direction: column;
 }
+
+
 
 #handlekurv-img{
     height: 120px;
@@ -161,6 +163,85 @@ main{
     position: absolute;
     right: 6rem;
     top: 35rem;
+}
+
+#handlekurv-img4{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 30rem;
+}
+
+#produkt-img{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 11rem;
+}
+
+#produkt-img2{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 11rem;
+    top: 24rem;
+}
+
+#produkt-img3{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 11rem;
+    top: 33rem;
+}
+
+#produkt-img4{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 11rem;
+    top: 42rem;
+}
+
+#produkt-img5{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 1rem;
+}
+
+#produkt-img6{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 1rem;
+    top: 24rem;
+}
+
+#produkt-img7{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 1rem;
+    top: 33rem;
+}
+
+#produkt-img8{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 1rem;
+    top: 42rem;
 }
 
 .Info{
@@ -261,21 +342,21 @@ footer{
       
 
     .multible {
-        position: absolute;
-        right: 41.8rem;
-        bottom: 10.8rem;
+        right: 5.8rem;
+        top: 9.6rem;
+        height: 1.3rem;
       }
     
       .multible2 {
-        position: absolute;
-        right: 61.8rem;
-        bottom: 10.8rem;
+        right: 5.8rem;
+        top: 9.6rem;
+        height: 1.3rem;
       }
     
       .multible3 {
-        position: absolute;
-        right: 21.8rem;
-        bottom: 10.8rem;
+        right: 5.8rem;
+        top: 9.6rem;
+        height: 1.3rem;
       }
 
       #Salg {
@@ -336,6 +417,114 @@ footer{
         left: 57rem;
         top: 8rem;
     }
+
+ 
+
+#handlekurv-img{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+}
+
+#handlekurv-img2{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 8rem;
+}
+
+#handlekurv-img3{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 8rem;
+}
+
+#handlekurv-img4{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 6rem;
+    top: 30rem;
+}
+
+#produkt-img{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 37.6rem;
+    top: 15.13;
+}
+
+#produkt-img2{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 28rem;
+    top: 245px;
+}
+
+#produkt-img3{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 47.5rem;
+    top: 245px;
+}
+
+#produkt-img4{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 37.6rem;
+    top: 527px;
+}
+
+#produkt-img5{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 47.5rem;
+    top: 527px;
+}
+
+#produkt-img6{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 47.5rem;
+    top: 24rem;
+}
+
+#produkt-img7{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 37.6rem;
+    top: 24rem;
+}
+
+#produkt-img8{
+    height: 120px;
+    padding: 3.7rem;
+    width: 120px;
+    position: absolute;
+    right: 28rem;
+    top: 24rem;
+}
+    
+   
 
     .Info{
         font-size: 15px;
